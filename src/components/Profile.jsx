@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import hero from "../assets/profile.jpg";
 
-export default function Hero() {
+export default function Profile() {
   return (
     <div id="home" className='lg:h-screen w-full flex flex-col-reverse md:flex-row justify-center items-center lg:gap-10 gap-5  bg-[#333647] pt-32 lg:pt-0'>
 
@@ -26,3 +26,5 @@ export default function Hero() {
     </div>
   );
 }
+
+

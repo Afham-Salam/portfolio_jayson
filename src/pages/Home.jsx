@@ -6,14 +6,15 @@ import Skill from '../components/Skill'
 import Project from '../components/Project'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
+import Profile from '../components/Profile'
+
 
 
 export default function Home() {
   return (
     <>
      <Navbar/> 
-      <Hero/>
+     <Profile/>
       <About/>
       <Skill/>
       <Project/>
