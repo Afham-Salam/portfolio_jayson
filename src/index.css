@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+.navbarTitle{
+ 
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+.font{
+  font-family:""Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif";
+  font-weight: 400;
+  color:rgb(158, 158, 167);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.bordergap{
+  border-spacing: 5px;
+}
+
+/* Add this to your CSS file */
+
