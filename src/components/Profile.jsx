@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../assets/profile.jpg";
+import photo from "../assets/profile.jpg";
 
 export default function Profile() {
   return (
@@ -20,7 +20,7 @@ export default function Profile() {
       </div>
 
       <div>
-        <img src={hero} alt="Jayson Das" className='rounded-full md:w-[400px] w-[300px] border-2 border-dashed border-[#df4b22]' />
+        <img src={photo} alt="Jayson Das" className='rounded-full md:w-[400px] w-[300px] border-2 border-dashed border-[#df4b22]' />
       </div>
 
     </div>
