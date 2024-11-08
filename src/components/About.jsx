@@ -91,7 +91,7 @@ export default function About() {
             <div className="flex flex-col gap-4">
               <p className="text-sm md:text-base">
                 <strong>Name&emsp;&emsp; &emsp;: &emsp;&emsp;</strong> Jayson
-                Das
+                Das K
               </p>
               <p className="text-sm md:text-base">
                 <strong>Email&emsp;&emsp;&nbsp; &emsp;: &emsp;&emsp;</strong>
@@ -101,11 +101,11 @@ export default function About() {
               </p>
             </div>
           </div>
-          <a href="./assets/Jayson Das K Resume.pdf" download>
             <button className="bg-[#df4b22] hover:bg-[#d85430db] text-white font-semibold py-2 rounded w-[150px]">
+          <a href="public/JaysonDas.K.pdf" download>
               Download CV
-            </button>
           </a>
+            </button>
         </div>
       </div>
     </div>
