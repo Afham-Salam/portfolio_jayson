@@ -101,11 +101,13 @@ export default function About() {
               </p>
             </div>
           </div>
-            <button className="bg-[#df4b22] hover:bg-[#d85430db] text-white font-semibold py-2 rounded w-[150px]">
-          <a href="public/JaysonDas.pdf"  download>
-              Download CV
-          </a>
-            </button>
+          <a
+  href="/JaysonDas.pdf"
+  download
+  className="bg-[#df4b22] hover:bg-[#d85430db] text-white font-semibold py-2 rounded w-[150px] text-center inline-block"
+>
+  Download CV
+</a>
         </div>
       </div>
     </div>
