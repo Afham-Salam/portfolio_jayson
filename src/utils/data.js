@@ -57,21 +57,21 @@ export const progress=[
 export const project=[
     {
         key:1,
-        image:"src/assets/project1.jpg",
+        image:"./src/assets/project1.jpg",
         title:"Drive2Go",
         details:"ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque nisi simili",
         link:"https://github.com/jaysonjyo/Drive2Go"
     },
     {
         key:2,
-        image:"src/assets/project2.jpg",
+        image:"./src/assets/project2.jpg",
         title:"Stylish",
         details:"ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque nisi simili",
         link:"https://github.com/jaysonjyo/Stylish_Firebase"
     },
     {
         key:3,
-        image:"src/assets/project3.jpg",
+        image:"./src/assets/project3.jpg",
         title:"EduVista",
         details:"ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque nisi simili",
         link:"https://github.com/jaysonjyo/Edu_Vista_Firebase"
