@@ -15,7 +15,7 @@ export default function Profile() {
           responsive applications on time, ensuring complete satisfaction and a seamless user experience.          </p>
         </div>
         <button className="text-white bg-[#df4b22] hover:bg-[#d85430db] rounded-md py-2 px-3 w-[120px]">
-          Hire Me
+         <a href="tel:+918593834678">Hire Me</a> 
         </button>
       </div>
 
