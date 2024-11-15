@@ -59,21 +59,21 @@ export const project=[
         key:1,
         image:"/project1.jpg",
         title:"Drive2Go",
-        details:"ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque nisi simili",
+        details:"Built with Flutter and Firebase, it offers location-based searches, secure payments, real-time alerts, and comprehensive vehicle listings—all for a seamless, user-friendly experience, with intuitive navigation and modern design.",
         link:"https://github.com/jaysonjyo/Drive2Go"
     },
     {
         key:2,
         image:"/project2.jpg",
         title:"Stylish",
-        details:"ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque nisi simili",
+        details:"Developed a scalable e-commerce app using Flutter and Firebase with features like Google Sign-In, OTP login, advanced product search, secure payments, order tracking, cart management, profile updates, and customer support.",
         link:"https://github.com/jaysonjyo/Stylish_Firebase"
     },
     {
         key:3,
         image:"/project3.jpg",
         title:"EduVista",
-        details:"ipsum dolor sit amet consectetur adipisicing elit. Voluptas, itaque nisi simili",
+        details:"Developed a cross-platform education app using Flutter and Firebase with features like Google Sign-In, OTP login, a course library with videos and PDFs, secure payments, one-to-one help, search, cart, and profile management.",
         link:"https://github.com/jaysonjyo/Edu_Vista_Firebase"
     },
 ]

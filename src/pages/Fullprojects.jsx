@@ -5,13 +5,13 @@ import { project } from '../utils/data'
 export default function FullProjects() {
   return (
     <>
-    <div   className="bg-gray-900 lg:h-screen w-full flex flex-col gap-16 p-4">
+    <div className="bg-gray-900 lg:h-screen w-full p-4">
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-2 place-items-center justify-items-center">
+      <div className="flex flex-wrap gap-10 justify-items-center">
         {project.map((item) => (
           <div
             key={item.title} // Unique key for each item
-            className="text-white flex flex-col bg-gray-800 w-[240px] gap-5 items-center justify-center rounded-lg p-4"
+            className="text-white mt-5 flex flex-col text-justify bg-gray-800 w-[320px] h-full gap-5 items-center justify-center rounded-lg p-4"
           >
             <img
               className="rounded-lg w-[230px]"

@@ -82,7 +82,7 @@ export default function About() {
           <div className="flex flex-col gap-4">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">About Me</h2>
             <p className="text-lg md:text-base">
-              I am a professional Flutter developer with six internships under
+              I am a professional Flutter developer with six month internships under
               my belt, dedicated to delivering high-quality, responsive
               applications that exceed client expectations.
             </p>
