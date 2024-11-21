@@ -73,9 +73,9 @@ export default function Navbar() {
         </div>
 
         <div className="lg:hidden">
-          <button className="text-white bg-[#df4b22] hover:bg-[#d85430db] rounded-md py-2 px-3">
+        <a href="#contact"> <button className="text-white bg-[#df4b22] hover:bg-[#d85430db] rounded-md py-2 px-3">
             Contact Me
-          </button>
+          </button></a>
         </div>
       </div>
 
