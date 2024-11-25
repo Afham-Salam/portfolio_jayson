@@ -37,7 +37,7 @@ export default function Skill() {
         </p>
         <div className="lg:w-[500px]  " data-aos="fade-up">
           <p>
-          You should hire me for your project because I am a professional Flutter developer with six internships of experience. I am committed to delivering high-quality, responsive applications
+          You should hire me for your project because I am a professional Flutter developer with six month internships of experience. I am committed to delivering high-quality, responsive applications
            on time, ensuring client satisfaction and a seamless user experience.
             I am eager to contribute to the success of your project.
           </p>
