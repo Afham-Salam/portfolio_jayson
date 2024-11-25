@@ -39,17 +39,32 @@ export const progress=[
     {
         key:1,
          title:"Dart",
-         percentage:"90"
+         img:"/dart.png"
+        
     },
     {
         key:2,
-         title:"Firebase",
-         percentage:"85"
+        title:"Firebase",
+        img:"/firebase.png"
+         
     },
     {
-        key:2,
-         title:"API Integration",
-         percentage:"80"
+        key:3,
+        title:"API Integration",
+        img:"/api.jpg"
+         
+    },
+    {
+        key:4,
+         title:"Github",
+         img:"/github.webp"
+         
+    },
+    {
+        key:5,
+         title:"Git",
+         img:"/git.webp"
+         
     }
 ]
 

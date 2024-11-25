@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { skill,progress } from "../utils/data";
+import { skill ,progress} from "../utils/data";
 import { Progress } from "antd";
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -45,42 +45,25 @@ export default function Skill() {
       </div>
       <hr className="my-10 border-t-2  border-[#df4b22] border-dashed  mx-auto w-2/3" />
 
-      <div className="flex flex-col md:flex-row md:items-center md:justify-center gap-10 md:gap-64 ">
-        {/* left section  */ }
-  <div className="md:flex flex-col hidden gap-28 text-2xl md:text-3xl font-bold pl-7 " data-aos="fade-up" >
-    {skill.map((item, index) => (
-      <p key={index}>{item.title}</p>
-    ))}
-  </div>
 
-  {/* right-section-progress bar */}
+  {/* skill-section */}
 
-  <div className="flex flex-col gap-8 pb-4"  ref={progressRef} data-aos="fade-up">
-    {progress.map((item, index) => (
-      <div key={index}>
-        <div className="flex justify-between  pb-4">
-          <span>{item.title}</span>
-          <span className="pr-4">{isVisible ? `${item.percentage}` : 0}%</span>
-        </div>
-
-        <Progress
-          motionDurationSlow="2s"
-          motionEaseOutQuint="cubic-bezier(0.5, 0, 0.5, 1)"
-          strokeColor="#df4b22"
-          strokeLinecap="square"
-          trailColor="#fff"
-          type="line"
-          percent={isVisible ? item.percentage : 0} // Pass numeric value directly
-          className="lg:w-[500px] w-[320px]"
-          status="active"
-          format={(percent) => (
-            <span style={{ color: "#333647" }}>{percent}%</span>
-          )}
-        />
-      </div>
-    ))}
-  </div>
+  <div className="flex gap-6  flex-wrap justify-center items-center lg:px-20 pb-3 ">
+  {progress.map((skill) => (
+    <div
+      key={skill.key}
+      className="flex flex-col bg-gray-900 items-center justify-center h-40 w-48  rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl "
+    >
+      <img
+        src={skill.img}
+        alt={skill.title}
+        className="w-10 h-40 md:h-40 object-contain"
+      />
+      <p className="mt-2 text-white text-lg font-semibold pb-4">{skill.title}</p>
+    </div>
+  ))}
 </div>
+
 
     </div>
   );
