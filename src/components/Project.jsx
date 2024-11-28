@@ -54,7 +54,7 @@ export default function Project() {
       </div>
 
       {/* Show More Button */}
-      <div className="flex justify-center w-full bg-gray-900 py-3">
+      <div className="flex justify-center w-full bg-gray-900 py-10">
         <Link
          to="/fullprojects"
           className="text-white bg-[#df4b22] hover:bg-[#d85430db] rounded-md py-2 px-3"
