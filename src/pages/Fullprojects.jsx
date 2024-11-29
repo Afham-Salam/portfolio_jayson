@@ -22,9 +22,9 @@ export default function FullProjects() {
             <p className="text-sm  p-2 text-gray-300">
              {item.details}
             </p>
-            <div className="bg-gray-700 flex justify-between w-full py-2 px-3 rounded-lg">
+            <div className="bg-gray-700  w-full py-2 px-3 rounded-lg">
+              <a href={item.link} className="flex justify-between">
               <small className="text-[#df4b22]">Available on ⇒</small>
-              <a href={item.link}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
