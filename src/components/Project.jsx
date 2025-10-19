@@ -1,19 +1,23 @@
 import React from "react";
 import { project } from "../utils/data";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Project() {
-
   return (
     <>
-      <div id="projects" className="bg-gray-900 lg:h-screen w-full flex flex-col gap-16 justify-center items-center">
+      <div
+        id="projects"
+        className="bg-gray-900 lg:h-screen w-full flex flex-col gap-16 justify-center items-center"
+      >
         {/* Header Section */}
         <div className="p-6 gap-3 text-white lg:pl-20 flex flex-col md:flex-row md:justify-around md:gap-96 md:items-center pt-20">
           <p className="text-2xl md:text-5xl font-bold mb-4" data-aos="fade-up">
             Projects
           </p>
           <div data-aos="fade-up">
-            <p className="text-2xl font-bold">All Creative Works - Selected Projects.</p>
+            <p className="text-2xl font-bold">
+              All Creative Works - Selected Projects.
+            </p>
           </div>
         </div>
 
@@ -28,12 +32,16 @@ export default function Project() {
                 className="rounded-lg w-[230px]"
                 src={item.image}
                 alt={item.title}
+                loading="lazy"
+                decoding="async"
               />
-              <p className="lg:text-lg md:text-sm font-semibold">{item.title}</p>
+              <p className="lg:text-lg md:text-sm font-semibold">
+                {item.title}
+              </p>
               <p className="text-sm p-2 text-gray-300">{item.details}</p>
               <div className="bg-gray-700 w-full py-2 px-3 rounded-lg">
                 <a href={item.link} className="flex justify-between">
-                <small className="text-[#df4b22]">Available on ⇒</small>
+                  <small className="text-[#df4b22]">Available on ⇒</small>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -56,7 +64,7 @@ export default function Project() {
       {/* Show More Button */}
       <div className="flex justify-center w-full bg-gray-900 py-10">
         <Link
-         to="/fullprojects"
+          to="/fullprojects"
           className="text-white bg-[#df4b22] hover:bg-[#d85430db] rounded-md py-2 px-3"
         >
           Show More
