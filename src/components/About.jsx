@@ -4,10 +4,14 @@ import AOS from "aos";
 
 export default function About() {
   useEffect(() => {
-    AOS.init({ duration: 1200, offset: 200, easing: "ease-in-out", once: false });
+    AOS.init({
+      duration: 1200,
+      offset: 200,
+      easing: "ease-in-out",
+      once: false,
+    });
   }, []);
-  
-  
+
   return (
     <div
       id="about"
@@ -15,10 +19,7 @@ export default function About() {
     >
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:gap-36 gap-10 p-6 md:p-10">
         {/* Left Section */}
-        <div className="flex flex-col lg:gap-14" data-aos="fade-up"
-          
-          
-        >
+        <div className="flex flex-col lg:gap-14" data-aos="fade-up">
           <div className="flex flex-col gap-4">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
               Any type of question & Discussion.
@@ -75,26 +76,21 @@ export default function About() {
         </div>
 
         {/* Right Section */}
-        <div
-          className="flex flex-col gap-14 pt-4" data-aos="fade-up"
-          
-        >
+        <div className="flex flex-col gap-14 pt-4" data-aos="fade-up">
           <div className="flex flex-col gap-4">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">About Me</h2>
-            <p className="text-lg md:text-base">
-              I am a professional Flutter developer with six month internships under
-              my belt, dedicated to delivering high-quality, responsive
-              applications that exceed client expectations.
+            <p className=" tracking-wider leading-relaxed ">
+              I am a professional Flutter developer with 1.5 years of experience under my belt, dedicated to delivering high-quality, responsive applications that exceed client expectations.
             </p>
           </div>
           <div>
             <div className="flex flex-col gap-4">
               <p className="text-sm md:text-base">
-                <strong>Name&emsp;&emsp; &emsp;: &emsp;&emsp;</strong> Jayson
+                <strong>Name&emsp;&emsp; &emsp;: &emsp;</strong> Jayson
                 Das K
               </p>
               <p className="text-sm md:text-base">
-                <strong>Email&emsp;&emsp;&nbsp; &emsp;: &emsp;&emsp;</strong>
+                <strong>Email&emsp;&emsp;&nbsp; &emsp;: &emsp;</strong>
                 <a href="mailto:jaysondas007@gmail.com">
                   jaysondas007@gmail.com
                 </a>
@@ -102,12 +98,12 @@ export default function About() {
             </div>
           </div>
           <a
-  href="/JaysonDas.pdf"
-  download
-  className="bg-[#df4b22] hover:bg-[#d85430db] text-white font-semibold py-2 rounded w-[150px] text-center inline-block"
->
-  Download CV
-</a>
+            href="/JaysonDas.pdf"
+            download
+            className="bg-[#df4b22] hover:bg-[#d85430db] text-white font-semibold py-2 rounded w-[150px] text-center inline-block"
+          >
+            Download CV
+          </a>
         </div>
       </div>
     </div>

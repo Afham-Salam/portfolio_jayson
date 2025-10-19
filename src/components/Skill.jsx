@@ -35,9 +35,9 @@ export default function Skill() {
         <p className="text-3xl md:text-5xl font-bold mb-4" data-aos="fade-up">
           Why hire me for<br></br> your project&nbsp;?
         </p>
-        <div className="lg:w-[500px]  " data-aos="fade-up">
+        <div className="lg:w-[500px] tracking-wider leading-relaxed" data-aos="fade-up">
           <p>
-          You should hire me for your project because I am a professional Flutter developer with six month internships of experience. I am committed to delivering high-quality, responsive applications
+          You should hire me for your project because I am a professional Flutter developer with 1.5 years of experience. I am committed to delivering high-quality, responsive applications
            on time, ensuring client satisfaction and a seamless user experience.
             I am eager to contribute to the success of your project.
           </p>
