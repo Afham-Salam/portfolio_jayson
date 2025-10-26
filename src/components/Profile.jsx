@@ -1,11 +1,11 @@
 import React from "react";
-import photo from "../assets/profile.jpg";
+import photo from "/profile.webp";
 
 export default function Profile() {
   return (
     <div
       id="home"
-      className="lg:h-screen w-full flex flex-col-reverse md:flex-row justify-center items-center lg:gap-10 gap-5  bg-[#333647] pt-32 lg:pt-0"
+      className="lg:h-screen w-full flex flex-col-reverse lg:flex-row justify-center items-center lg:gap-10 gap-5  bg-[#333647] pt-32 lg:pt-0"
     >
       <div className=" text-white flex flex-col lg:gap-5 gap-3 px-4 pb-3 ">
         <p className="text-[20px] sm:text-[22px] lg:text-[25px]">Hello!</p>

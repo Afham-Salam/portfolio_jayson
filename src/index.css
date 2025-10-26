@@ -5,6 +5,9 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  background-color: #111826;
+}
 .navbarTitle{
  
   font-family: "Dancing Script", cursive;

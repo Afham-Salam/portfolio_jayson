@@ -23,10 +23,10 @@ export default function Project() {
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center justify-items-center">
-          {project.map((item) => (
+          {project.slice(0,3).map((item) => (
             <div
               key={item.title} // Unique key for each item
-              className="text-white flex flex-col text-justify bg-gray-800 w-[320px] h-full gap-5 items-center justify-center rounded-lg p-4"
+              className="text-white flex flex-col text-justify  bg-gray-800 w-[320px] h-full gap-5 items-center justify-center rounded-lg p-4"
             >
               <img
                 className="rounded-lg w-[230px]"
@@ -62,7 +62,7 @@ export default function Project() {
       </div>
 
       {/* Show More Button */}
-      <div className="flex justify-center w-full bg-gray-900 py-10">
+      <div className="flex justify-center w-full bg-gray-900 py-10 mt-6">
         <Link
           to="/fullprojects"
           className="text-white bg-[#df4b22] hover:bg-[#d85430db] rounded-md py-2 px-3"

@@ -69,7 +69,9 @@ export default function Skill() {
             <img
               src={skill.img}
               alt={skill.title}
-              className="w-10 h-40 md:h-40 object-contain"
+              className={`w-10 h-40 md:h-40 object-contain ${
+                skill.title === "MySQL" ? "" : ""
+              }`}
               loading="lazy"
               decoding="async"
             />
