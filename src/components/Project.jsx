@@ -23,7 +23,7 @@ export default function Project() {
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center justify-items-center">
-          {project.slice(0,3).map((item) => (
+          {project.slice(0,4).map((item) => (
             <div
               key={item.title} // Unique key for each item
               className="text-white flex flex-col text-justify  bg-gray-800 w-[320px] h-full gap-5 items-center justify-center rounded-lg p-4"
