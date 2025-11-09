@@ -7,10 +7,10 @@ export default function Project() {
     <>
       <div
         id="projects"
-        className="bg-gray-900 lg:h-screen w-full flex flex-col gap-16 justify-center items-center"
+        className="bg-gray-900  w-full flex flex-col gap-16 justify-center items-center"
       >
         {/* Header Section */}
-        <div className="p-6 gap-3 text-white lg:pl-20 flex flex-col md:flex-row md:justify-around md:gap-96 md:items-center pt-20">
+        <div className=" px-6 md:px-20 gap-3 text-white lg:pl-32 flex flex-col md:flex-row md:justify-around md:gap-96 md:items-center pt-20">
           <p className="text-2xl md:text-5xl font-bold mb-4" data-aos="fade-up">
             Projects
           </p>
@@ -22,8 +22,8 @@ export default function Project() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center justify-items-center">
-          {project.slice(0,3).map((item) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center justify-items-center">
+          {project.slice(0,4).map((item) => (
             <div
               key={item.title} // Unique key for each item
               className="text-white flex flex-col text-justify  bg-gray-800 w-[320px] h-full gap-5 items-center justify-center rounded-lg p-4"
